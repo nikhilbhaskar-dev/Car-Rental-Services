@@ -10,5 +10,6 @@ app.get('/', (req, res) => {
   res.send('Welcome to the Car Rental API!');
 });
 
+app.use('/api/cars', require('./routes/cars'));
 
 module.exports = app;
