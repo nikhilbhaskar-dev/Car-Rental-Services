@@ -11,5 +11,8 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/cars', require('./routes/cars'));
+app.use('/api/users', require('./routes/users')); 
+app.use('/api/auth', require('./routes/auth'));
+app.use('/api/rentals', require('./routes/rentals'));
 
 module.exports = app;
