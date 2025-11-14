@@ -39,7 +39,8 @@ The API provides a full backend for a rental service. It allows users to create 
 ### 2. Setup
 1.  **Clone the project:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/car-rental-api.git](https://github.com/YOUR_USERNAME/car-rental-api.git)
+    git clone https://github.com/nikhilbhaskar-dev/Car-Rental-Services.git
+    cd Car-Rental-Services
     cd car-rental-api
     ```
 
